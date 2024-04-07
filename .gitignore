@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+diffae/checkpoints
+exp
+imgs_style_domA
+P2_weighting/models
