@@ -111,7 +111,7 @@ python eval_diffaeB.py \
 `work_dir`: working directory
 
 ## TODO
-- [] update pretrained models
+- [ ] update pretrained models
 
 ## Acknowledgements
 This repository is built upon [P2-weighting](https://github.com/jychoi118/P2-weighting), [DiffAE](https://github.com/phizaz/diffae), and [MindTheGap](https://github.com/ZPdesu/MindTheGap)
