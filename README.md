@@ -109,3 +109,19 @@ python eval_diffaeB.py \
 `infer_dir`: directory of input images in domain A (photorealistic domain) <br>
 `ref_img`: name of style image <br>
 `work_dir`: working directory
+
+## TODO
+- [] update pretrained models
+
+## Acknowledgements
+This repository is built upon [P2-weighting](https://github.com/jychoi118/P2-weighting), [DiffAE](https://github.com/phizaz/diffae), and [MindTheGap](https://github.com/ZPdesu/MindTheGap)
+
+## Citation
+```bibtex
+@article{cho2024one,
+  title={One-Shot Structure-Aware Stylized Image Synthesis},
+  author={Cho, Hansam and Lee, Jonghyun and Chang, Seunggyu and Jeong, Yonghyun},
+  journal={arXiv preprint arXiv:2402.17275},
+  year={2024}
+}
+```
