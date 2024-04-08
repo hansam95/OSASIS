@@ -1,0 +1,19 @@
+name: osasis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip=21.2.4
+  - mpi4py==3.1.5
+  - pip:
+      - blobfile==2.1.1
+      - lpips==0.1.4
+      - torch==1.13.0
+      - torchvision==0.14.0
+      - pytorch-lightning==1.8.6
+      - tqdm==4.64.1
+      - git+https://github.com/openai/CLIP.git
+      - pandas==1.4.4
+      - lmdb==1.4.0
+      - pytorch-fid==0.2.1
