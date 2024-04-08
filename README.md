@@ -13,6 +13,12 @@ Official implementation of One-Shot Structure-Aware Stylized Image Synthesis
 
 ![image](imgs/teaser.jpg)
 
+## Setup
+```
+conda env create -f environment.yaml
+conda activate osasis
+```
+
 ## Prepare Training
 1. Download DDPM with [P2-weighting](https://github.com/jychoi118/P2-weighting) trained on FFHQ ([ffhq_p2.pt](https://drive.google.com/file/d/14ACthNkradJWBAL0th6z0UguzR6QjFKH/view?usp=drive_link)) and put model checkpoint in `P2_weighting/models`
 ```
