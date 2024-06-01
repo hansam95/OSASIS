@@ -116,8 +116,18 @@ python eval_diffaeB.py \
 `ref_img`: name of style image <br>
 `work_dir`: working directory
 
-## TODO
-- [ ] Upload pretrained models
+## Using Pretrained Models
+Download pretrained weights in this [link](https://drive.google.com/drive/folders/1N0q9RBYIwc110njCsHX7uiY3BtwY5PqY?usp=sharing) and put checkpoint as shown in below
+```
+OSASIS
+|--exp
+|  |--img1
+|  |  |--ckpt
+|  |  |  |--iter_200.ckpt
+|  |--img2
+|  |  |--ckpt
+|  |  |  |--iter_200.ckpt
+```
 
 ## Acknowledgements
 This repository is built upon [P2-weighting](https://github.com/jychoi118/P2-weighting), [DiffAE](https://github.com/phizaz/diffae), and [MindTheGap](https://github.com/ZPdesu/MindTheGap)
