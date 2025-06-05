@@ -123,10 +123,10 @@ OSASIS
 |--exp
 |  |--img1
 |  |  |--ckpt
-|  |  |  |--iter_200.ckpt
+|  |  |  |--iter_200.pt
 |  |--img2
 |  |  |--ckpt
-|  |  |  |--iter_200.ckpt
+|  |  |  |--iter_200.pt
 ```
 
 ## Acknowledgements
